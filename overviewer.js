@@ -284,15 +284,23 @@ overviewer.util = {
                     }
                 }
 
+                
+
                 let selected_layer_name = overviewer.collections.mapTypes[selected_world] && overviewer.current_layer[selected_world] ?
                     overviewer.current_layer[selected_world].tileSetConfig.path :
                     Object.keys(overviewer.collections.mapTypes[selected_world])[0];
-
+                
                 let center = overviewer.collections.centers[selected_world][selected_layer_name];
-                overviewer.map.setView(center[0], center[1]);
+                overviewer.map.setView(center[0], center[1], true);
 
                 overviewer.current_world = selected_world;
                 overviewer.map.addLayer(overviewer.collections.mapTypes[selected_world][selected_layer_name]);
+
+                
+
+                
+
+                
             },
             onAdd: function() {
                 return this.container
@@ -301,13 +309,12 @@ overviewer.util = {
 
 
 
-        overviewer.map = L.map('mcmap', {crs: L.CRS.Simple});
+        overviewer.map = L.map('mcmap', {crs: L.CRS.Simple, keyboard:false});
 
         overviewer.map.attributionControl.setPrefix(
             '<a href="https://github.com/tossowski/CubicChunksMapViewer">Cubic Chunks Overviewer</a>');
 
         overviewer.map.on('baselayerchange', function(ev) {
-            
             // when changing the layer, ensure coordinates remain correct
             // if (overviewer.current_layer[overviewer.current_world]) {
             //     const center = overviewer.map.getCenter();
@@ -321,13 +328,14 @@ overviewer.util = {
             //             currentWorldCoords.y, 
             //             currentWorldCoords.z, 
             //             ev.layer.tileSetConfig);
+
                         
             //     overviewer.map.setView(
-            //             newMapCoords,
+            //             currentWorldCoords,
             //             overviewer.map.getZoom(),
             //             { animate: false });
             // }
-            
+
             // before updating the current_layer, remove the marker control, if it exists
             if (overviewer.current_world && overviewer.current_layer[overviewer.current_world]) {
                 let tsc = overviewer.current_layer[overviewer.current_world].tileSetConfig;
@@ -550,7 +558,7 @@ overviewer.util = {
 
         let default_layer_name = Object.keys(overviewer.collections.mapTypes[overviewer.current_world])[0];
         let center = overviewer.collections.centers[overviewer.current_world][default_layer_name];
-        overviewer.map.setView(center[0], center[1]);
+        overviewer.map.setView(center[0], center[1], true);
 
         if (!overviewer.util.initHash()) {
             overviewer.worldCtrl.onChange({target: {value: overviewer.current_world}});
@@ -830,6 +838,7 @@ overviewer.util = {
             // default to (map-update friendly) negative zooms
             zoom -= ovconf.maxZoom;
         }
+
         overviewer.util.setHash(coordinates.x, coordinates.y, coordinates.z, zoom, currWorld, ovconf.path);
     },
     'goToHash': function() {
@@ -888,7 +897,7 @@ overviewer.util = {
         overviewer.worldCtrl.onChange({target: {value: world_name}});
         overviewer.worldCtrl.select.value = world_name;
 
-        overviewer.map.setView(latlngcoords, zoom);
+        overviewer.map.setView(latlngcoords, zoom, true);
 
         if (ovconf.showlocationmarker) {
             var locationIcon = L.icon({
