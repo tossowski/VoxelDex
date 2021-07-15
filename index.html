@@ -32,9 +32,12 @@
       Overviewer JavaScript components. Check the JavaScript console for error
       messages.
     </noscript>
-    <div class="mapWrapper">
-      <div id="mcmap"></div>
+    <div id="mapWrapperWrapper">
+      <div class="mapWrapper">
+        <div id="mcmap"></div>
+      </div>
     </div>
+    
     
     <p class = "pageText">This is a collection of all generation 1 pokemon rendered in minecraft. More details
       on how these renders were created can be found below:
@@ -44,13 +47,13 @@
     These models then had to be "voxelized", or turned into a block-like format that would make sense to paste into
     a minecraft world. This was accomplished by first triangulating the meshes, so that each face on the mesh was a triangle. </p>
     <div class="imageContainer">
-      <div id="notTriangulated">
-        <img src="./images/not_triangulated.png" alt="Not Triangulated">
+      <div class="figure">
+        <img id="notTriangulated" src="./images/not_triangulated.png" alt="Not Triangulated">
         <p class="caption">Before Triangulation</p>
       </div>
       
-      <div id="triangulated">
-        <img src="./images/triangulated.png" alt="Triangulated">
+      <div class="figure">
+        <img id="triangulated" src="./images/triangulated.png" alt="Triangulated">
         <p class=caption>After Triangulation</p>
       </div>
     </div>
@@ -60,19 +63,19 @@
       Afterwards, each block that intersects with the face was assigned a color based on the closest texture color on the mesh.</p>
 
     <div class="imageContainer">
-      <div id="original">
-        <img src="./images/original.png" alt="Original">
+      <div class="figure">
+        <img id="original" src="./images/original.png" alt="Original">
         <p class="caption">Before Voxelization</p>
       </div>
       
-      <div id="voxelized">
-        <img src="./images/voxelized.png" alt="Voxelized">
+      <div class="figure">
+        <img id="voxelized" src="./images/voxelized.png" alt="Voxelized">
         <p class=caption>After Voxelization</p>
       </div>
 
-      <div id="textured">
-        <img src="./images/textured.png" alt="Textured">
-        <p class=caption>Texturing the resulting voxels based on closest mesh color</p>
+      <div class="figure">
+        <img id="textured" src="./images/textured.png" alt="Textured">
+        <p class=caption>Texturing the resulting voxels</p>
       </div>
     </div>
 
@@ -85,8 +88,8 @@
     high resolution if needed.</p>
 
     <div class="imageContainer">
-      <div id="triangle">
-        <img src="./images/triangle.png" alt="Minecraft Triangle">
+      <div class="figure">
+        <img id="triangle" src="./images/triangle.png" alt="Minecraft Triangle">
         <p class="caption">The result of pasting our voxelized model into minecraft</p>
       </div>
       
@@ -95,8 +98,8 @@
     <p class="pageText">After pasting the models into minecraft, I feed the minecraft world into a custom version of the Minecraft Overviewer
     I modified to work with cubic chunks and canvas blocks. This gives the final result you see in the renders.</p>
     <div class="imageContainer">
-      <div id="finalResult">
-        <img src="./images/finalResult.png" alt="Final Result">
+      <div class="figure">
+        <img id="finalResult" src="./images/finalResult.png" alt="Final Result">
         <p class="caption">The triangle with some scenery :)</p>
       </div>
       
