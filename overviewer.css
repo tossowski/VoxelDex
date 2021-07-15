@@ -16,14 +16,16 @@ body {
 
 .caption {
     text-align: center;
-    font-family: cursive;
+    font-family: 'Varela Round', sans-serif;
     font-size: large;
 }
 
 .pageText {
     text-align: center;
-    font-family: -webkit-pictograph;
+    font-family: 'Varela Round', sans-serif;
     font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #titleImage {
@@ -34,6 +36,7 @@ body {
 .imageContainer {
     display:flex;
     flex-direction: row;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 
@@ -41,24 +44,28 @@ body {
     display: flex;
     flex-direction: column;
     width:20%;
+    max-width: 400px;
 }
 
 #voxelized {
     display: flex;
     flex-direction: column;
     width:20%;
+    max-width: 400px;
 }
 
 #textured {
     display: flex;
     flex-direction: column;
     width:20%;
+    max-width: 400px;
 }
 
 #notTriangulated {
     display: flex;
     flex-direction: column;
     width: 30%;
+    max-width: 400px;
 }
 
 
@@ -66,31 +73,33 @@ body {
     display: flex;
     flex-direction: column;
     width: 30%;
+    max-width: 400px;
 }
 
 #triangle {
     display: flex;
     flex-direction: column;
     width: 80%;
+    max-width: 1000px;
 }
 
 #finalResult {
     display: flex;
     flex-direction: column;
     width: 80%;
+    max-width: 1000px;
 }
 
 .mapWrapper {
     border: 2px solid red;
     width: 80%;
-    padding: 20%;
-    box-sizing: border-box;
-    position: relative;
+    height: 80%;
+    max-width: 800px;
+    max-height: 600px;
     margin: 0 auto;
 }
 
 #mcmap {
-    position: absolute;
     top: 0;
     left: 0;
     width:100%;

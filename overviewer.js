@@ -443,9 +443,9 @@ overviewer.util = {
             overviewer.worldCtrl.addWorld(world_name);
         });
 
-        overviewer.compass.addTo(overviewer.map);
+        //overviewer.compass.addTo(overviewer.map);
         overviewer.worldCtrl.addTo(overviewer.map);
-        overviewer.coord_box.addTo(overviewer.map);
+        //overviewer.coord_box.addTo(overviewer.map);
         overviewer.progress.addTo(overviewer.map);
 
         overviewer.map.on('mousemove', function(ev) {
