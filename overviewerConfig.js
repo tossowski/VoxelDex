@@ -203,7 +203,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 23,
                 30,
@@ -226,7 +226,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 181,
                 51,
@@ -249,7 +249,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 463,
                 74,
@@ -272,7 +272,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 707,
                 35,
@@ -295,7 +295,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 845,
                 44,
@@ -318,7 +318,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 1104,
                 90,
@@ -341,7 +341,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 1358,
                 34,
@@ -364,7 +364,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 1492,
                 41,
@@ -387,7 +387,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 1696,
                 81,
@@ -410,7 +410,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 1882,
                 25,
@@ -433,7 +433,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 1965,
                 31,
@@ -456,7 +456,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 2132,
                 61,
@@ -479,7 +479,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 2291,
                 24,
@@ -502,7 +502,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 2370,
                 31,
@@ -525,7 +525,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 2512,
                 59,
@@ -548,7 +548,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 2697,
                 26,
@@ -571,7 +571,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 2887,
                 34,
@@ -594,7 +594,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 3140,
                 46,
@@ -617,7 +617,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 3342,
                 23,
@@ -640,7 +640,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 3451,
                 36,
@@ -663,7 +663,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 3596,
                 27,
@@ -686,7 +686,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 3829,
                 34,
@@ -709,7 +709,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 4030,
                 33,
@@ -732,7 +732,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 4159,
                 55,
@@ -755,7 +755,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 4288,
                 36,
@@ -778,7 +778,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 4419,
                 42,
@@ -801,7 +801,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 4555,
                 30,
@@ -824,7 +824,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 4687,
                 42,
@@ -847,7 +847,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 4818,
                 27,
@@ -870,7 +870,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 4937,
                 38,
@@ -893,7 +893,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 5122,
                 64,
@@ -916,7 +916,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 5318,
                 26,
@@ -939,7 +939,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 5463,
                 39,
@@ -962,7 +962,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 5681,
                 73,
@@ -985,7 +985,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 5887,
                 32,
@@ -1008,7 +1008,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 6052,
                 46,
@@ -1031,7 +1031,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 6221,
                 31,
@@ -1054,7 +1054,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 6439,
                 57,
@@ -1077,7 +1077,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 6649,
                 29,
@@ -1100,7 +1100,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 6799,
                 50,
@@ -1123,7 +1123,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 6972,
                 36,
@@ -1146,7 +1146,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 7209,
                 44,
@@ -1169,7 +1169,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 7432,
                 36,
@@ -1192,7 +1192,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 7609,
                 35,
@@ -1215,7 +1215,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 7808,
                 50,
@@ -1238,7 +1238,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 7990,
                 16,
@@ -1261,7 +1261,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 8094,
                 38,
@@ -1284,7 +1284,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 8201,
                 35,
@@ -1307,7 +1307,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 8366,
                 46,
@@ -1330,7 +1330,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 8537,
                 24,
@@ -1353,7 +1353,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 8673,
                 34,
@@ -1376,7 +1376,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 8828,
                 39,
@@ -1399,7 +1399,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 8969,
                 42,
@@ -1422,7 +1422,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 9123,
                 42,
@@ -1445,7 +1445,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 9300,
                 61,
@@ -1468,7 +1468,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 9486,
                 42,
@@ -1491,7 +1491,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 9706,
                 59,
@@ -1514,7 +1514,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 9891,
                 39,
@@ -1537,7 +1537,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 10027,
                 58,
@@ -1560,7 +1560,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 10168,
                 26,
@@ -1583,7 +1583,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 10344,
                 46,
@@ -1606,7 +1606,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 10647,
                 66,
@@ -1629,7 +1629,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 10887,
                 37,
@@ -1652,7 +1652,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 11060,
                 46,
@@ -1675,7 +1675,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 11281,
                 57,
@@ -1698,7 +1698,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 11471,
                 39,
@@ -1721,7 +1721,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 11643,
                 51,
@@ -1744,7 +1744,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 11884,
                 69,
@@ -1767,7 +1767,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 12096,
                 29,
@@ -1790,7 +1790,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 12239,
                 39,
@@ -1813,7 +1813,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 12453,
                 44,
@@ -1836,7 +1836,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 12633,
                 38,
@@ -1859,7 +1859,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 12782,
                 62,
@@ -1882,7 +1882,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 12984,
                 27,
@@ -1905,7 +1905,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 13192,
                 45,
@@ -1928,7 +1928,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 13455,
                 57,
@@ -1951,7 +1951,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 13656,
                 45,
@@ -1974,7 +1974,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 13782,
                 59,
@@ -1997,7 +1997,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 13928,
                 31,
@@ -2020,7 +2020,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 14080,
                 58,
@@ -2043,7 +2043,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 14243,
                 26,
@@ -2066,7 +2066,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 14420,
                 40,
@@ -2089,7 +2089,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 14605,
                 36,
@@ -2112,7 +2112,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 14767,
                 60,
@@ -2135,7 +2135,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 14972,
                 77,
@@ -2158,7 +2158,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 15198,
                 36,
@@ -2181,7 +2181,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 15417,
                 53,
@@ -2204,7 +2204,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 15634,
                 48,
@@ -2227,7 +2227,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 15872,
                 66,
@@ -2250,7 +2250,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 16082,
                 18,
@@ -2273,7 +2273,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 16205,
                 50,
@@ -2296,7 +2296,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 16348,
                 34,
@@ -2319,7 +2319,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 16511,
                 38,
@@ -2342,7 +2342,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 16696,
                 52,
@@ -2365,7 +2365,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 16930,
                 126,
@@ -2388,7 +2388,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 17161,
                 50,
@@ -2411,7 +2411,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 17385,
                 60,
@@ -2434,7 +2434,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 17599,
                 32,
@@ -2457,7 +2457,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 17782,
                 54,
@@ -2480,7 +2480,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 17946,
                 26,
@@ -2503,7 +2503,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 18064,
                 34,
@@ -2526,7 +2526,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 18200,
                 18,
@@ -2549,7 +2549,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 18378,
                 62,
@@ -2572,7 +2572,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 18535,
                 27,
@@ -2595,7 +2595,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 18645,
                 41,
@@ -2618,7 +2618,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 18819,
                 46,
@@ -2641,7 +2641,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 19008,
                 47,
@@ -2664,7 +2664,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 19187,
                 48,
@@ -2687,7 +2687,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 19376,
                 39,
@@ -2710,7 +2710,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 19582,
                 57,
@@ -2733,7 +2733,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 19839,
                 58,
@@ -2756,7 +2756,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 20132,
                 87,
@@ -2779,7 +2779,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 20420,
                 44,
@@ -2802,7 +2802,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 20696,
                 40,
@@ -2825,7 +2825,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 20915,
                 85,
@@ -2848,7 +2848,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 21110,
                 24,
@@ -2871,7 +2871,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 21234,
                 49,
@@ -2894,7 +2894,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 21386,
                 24,
@@ -2917,7 +2917,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 21527,
                 42,
@@ -2940,7 +2940,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 21657,
                 34,
@@ -2963,7 +2963,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 21813,
                 46,
@@ -2986,7 +2986,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 22010,
                 49,
@@ -3009,7 +3009,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 22229,
                 66,
@@ -3032,7 +3032,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 22444,
                 39,
@@ -3055,7 +3055,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 22623,
                 51,
@@ -3078,7 +3078,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 22833,
                 60,
@@ -3101,7 +3101,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 23055,
                 48,
@@ -3124,7 +3124,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 23290,
                 52,
@@ -3147,7 +3147,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 23511,
                 36,
@@ -3170,7 +3170,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 23716,
                 112,
@@ -3193,7 +3193,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 24017,
                 80,
@@ -3216,7 +3216,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 24413,
                 21,
@@ -3239,7 +3239,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 24539,
                 41,
@@ -3262,7 +3262,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 24720,
                 53,
@@ -3285,7 +3285,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 24883,
                 49,
@@ -3308,7 +3308,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 25065,
                 47,
@@ -3331,7 +3331,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 25241,
                 34,
@@ -3354,7 +3354,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 25383,
                 35,
@@ -3377,7 +3377,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 25537,
                 41,
@@ -3400,7 +3400,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 25682,
                 18,
@@ -3423,7 +3423,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 25819,
                 50,
@@ -3446,7 +3446,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 26071,
                 48,
@@ -3469,7 +3469,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 26411,
                 78,
@@ -3492,7 +3492,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 26756,
                 56,
@@ -3515,7 +3515,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 27141,
                 78,
@@ -3538,7 +3538,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 27542,
                 98,
@@ -3561,7 +3561,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 27860,
                 55,
@@ -3584,7 +3584,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 28069,
                 65,
@@ -3607,7 +3607,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 28338,
                 93,
@@ -3630,7 +3630,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 28630,
                 77,
@@ -3653,7 +3653,7 @@ var overviewerConfig = {
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
-            "showlocationmarker": true,
+            "showlocationmarker": false,
             "center": [
                 28920,
                 23,

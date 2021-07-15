@@ -6,16 +6,95 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    background-color: #000;
+    background-color: rgb(138, 138, 138);
 
     font-family: Arial, sans-serif;
     font-size: 12px;
     line-height: 160%;
+    
+}
+
+.caption {
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+}
+
+.pageText {
+    text-align: center;
+    font-family: -webkit-pictograph;
+    font-size: large;
+}
+
+#titleImage {
+    display: flex;
+    justify-content: center;
+}
+
+.imageContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#original {
+    display: flex;
+    flex-direction: column;
+    width:20%;
+}
+
+#voxelized {
+    display: flex;
+    flex-direction: column;
+    width:20%;
+}
+
+#textured {
+    display: flex;
+    flex-direction: column;
+    width:20%;
+}
+
+#notTriangulated {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+#triangulated {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#triangle {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#finalResult {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.mapWrapper {
+    border: 2px solid red;
+    width: 80%;
+    padding: 20%;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
 }
 
 #mcmap {
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
 }
 
 .infoWindow {
