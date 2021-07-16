@@ -19,91 +19,101 @@
     <script src="leaflet.js"></script>
 
     <link rel="stylesheet" href="overviewer.css" type="text/css" />
+
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+
   </head>
 
   <!-- Generated at: Sun, 11 Jul 2021 22:47:09 EDT -->
   <body onload="overviewer.util.initialize()">
-    <div id="titleImage">
-      <img src="./images/VoxelDex.png">
-    </div>
     
-    <noscript style="color: white; background-color: black">
-      If you can see this message, there is likely a problem loading the
-      Overviewer JavaScript components. Check the JavaScript console for error
-      messages.
-    </noscript>
-    <div id="mapWrapperWrapper">
+    
+    
+    <div id="titleScreen">
+      <div id="titleImage">
+        <img src="./images/VoxelDex.png">
+      </div>
+      
+      <noscript style="color: white; background-color: black">
+        If you can see this message, there is likely a problem loading the
+        Overviewer JavaScript components. Check the JavaScript console for error
+        messages.
+      </noscript>
+
       <div class="mapWrapper">
         <div id="mcmap"></div>
       </div>
+
+      <p class = "pageText">This is a collection of all generation 1 pokemon rendered in minecraft. More details
+        on how these renders were created can be found below:
+      </p>
+
+      <p class="pageText">All the models were first obtained from the <a href="https://www.models-resource.com/3ds/pokemonxy/">3DS Models Resource</a>. 
+        These models then had to be "voxelized", or turned into a block-like format that would make sense to paste into
+        a minecraft world. This was accomplished by first triangulating the meshes, so that each face on the mesh was a triangle. </p>
+        <div class="imageContainer">
+          <div class="figure">
+            <img id="notTriangulated" src="./images/not_triangulated.png" alt="Not Triangulated">
+            <p class="caption">Before Triangulation</p>
+          </div>
+          
+          <div class="figure">
+            <img id="triangulated" src="./images/triangulated.png" alt="Triangulated">
+            <p class=caption>After Triangulation</p>
+          </div>
+        </div>
+        
+        <p class="pageText">Then for each face, check all possible voxels, or blocks that could intersect with this face. This can be efficiently
+          calculated using <a href="https://gdbooks.gitbooks.io/3dcollisions/content/Chapter4/aabb-triangle.html">triangle-box intersection methods</a>.
+          Afterwards, each block that intersects with the face was assigned a color based on the closest texture color on the mesh.</p>
+    
+        <div class="imageContainer">
+          <div class="figure">
+            <img id="original" src="./images/original.png" alt="Original">
+            <p class="caption">Before Voxelization</p>
+          </div>
+          
+          <div class="figure">
+            <img id="voxelized" src="./images/voxelized.png" alt="Voxelized">
+            <p class=caption>After Voxelization</p>
+          </div>
+    
+          <div class="figure">
+            <img id="textured" src="./images/textured.png" alt="Textured">
+            <p class=caption>Texturing the resulting voxels</p>
+          </div>
+        </div>
+    
+        <p class="pageText">After the voxels and colors of each voxel have been determined, I run a script to convert the 
+        found voxels into a <a href="https://minecraft.fandom.com/wiki/Schematic_file_format">minecraft .schematic file
+        </a> which can be pasted into minecraft worlds with <a href="https://www.curseforge.com/minecraft/mc-mods/worldedit">worldedit</a>.
+        Since vanilla minecraft only comes with 16 different colors of concrete, I use the <a href="https://www.curseforge.com/minecraft/mc-mods/openblocks">openblocks mod</a> to paint canvas 
+        blocks to allow for any rgb color. I also make use of the <a href="https://www.curseforge.com/minecraft/mc-mods/opencubicchunks">cubic chunks mod</a>
+        (which extends the build limit of 256 in vanilla minecraft to be essentially infinite) to allow for models of arbitrarily
+        high resolution if needed.</p>
+    
+        <div class="imageContainer">
+          <div class="figure">
+            <img id="triangle" src="./images/triangle.png" alt="Minecraft Triangle">
+            <p class="caption">The result of pasting our voxelized model into minecraft</p>
+          </div>
+          
+        </div>
+        
+        <p class="pageText">After pasting the models into minecraft, I feed the minecraft world into a custom version of the Minecraft Overviewer
+        I modified to work with cubic chunks and canvas blocks. This gives the final result you see in the renders.</p>
+        <div class="imageContainer">
+          <div class="figure">
+            <img id="finalResult" src="./images/finalResult.png" alt="Final Result">
+            <p class="caption">The triangle with some scenery :)</p>
+          </div>
+          
+        </div>
     </div>
     
+
     
-    <p class = "pageText">This is a collection of all generation 1 pokemon rendered in minecraft. More details
-      on how these renders were created can be found below:
-    </p>
-
-    <p class="pageText">All the models were first obtained from the <a href="https://www.models-resource.com/3ds/pokemonxy/">3DS Models Resource</a>. 
-    These models then had to be "voxelized", or turned into a block-like format that would make sense to paste into
-    a minecraft world. This was accomplished by first triangulating the meshes, so that each face on the mesh was a triangle. </p>
-    <div class="imageContainer">
-      <div class="figure">
-        <img id="notTriangulated" src="./images/not_triangulated.png" alt="Not Triangulated">
-        <p class="caption">Before Triangulation</p>
-      </div>
-      
-      <div class="figure">
-        <img id="triangulated" src="./images/triangulated.png" alt="Triangulated">
-        <p class=caption>After Triangulation</p>
-      </div>
-    </div>
-    
-    <p class="pageText">Then for each face, check all possible voxels, or blocks that could intersect with this face. This can be efficiently
-      calculated using <a href="https://gdbooks.gitbooks.io/3dcollisions/content/Chapter4/aabb-triangle.html">triangle-box intersection methods</a>.
-      Afterwards, each block that intersects with the face was assigned a color based on the closest texture color on the mesh.</p>
-
-    <div class="imageContainer">
-      <div class="figure">
-        <img id="original" src="./images/original.png" alt="Original">
-        <p class="caption">Before Voxelization</p>
-      </div>
-      
-      <div class="figure">
-        <img id="voxelized" src="./images/voxelized.png" alt="Voxelized">
-        <p class=caption>After Voxelization</p>
-      </div>
-
-      <div class="figure">
-        <img id="textured" src="./images/textured.png" alt="Textured">
-        <p class=caption>Texturing the resulting voxels</p>
-      </div>
-    </div>
-
-    <p class="pageText">After the voxels and colors of each voxel have been determined, I run a script to convert the 
-    found voxels into a <a href="https://minecraft.fandom.com/wiki/Schematic_file_format">minecraft .schematic file
-    </a> which can be pasted into minecraft worlds with <a href="https://www.curseforge.com/minecraft/mc-mods/worldedit">worldedit</a>.
-    Since vanilla minecraft only comes with 16 different colors of concrete, I use the <a href="https://www.curseforge.com/minecraft/mc-mods/openblocks">openblocks mod</a> to paint canvas 
-    blocks to allow for any rgb color. I also make use of the <a href="https://www.curseforge.com/minecraft/mc-mods/opencubicchunks">cubic chunks mod</a>
-    (which extends the build limit of 256 in vanilla minecraft to be essentially infinite) to allow for models of arbitrarily
-    high resolution if needed.</p>
-
-    <div class="imageContainer">
-      <div class="figure">
-        <img id="triangle" src="./images/triangle.png" alt="Minecraft Triangle">
-        <p class="caption">The result of pasting our voxelized model into minecraft</p>
-      </div>
-      
-    </div>
-    
-    <p class="pageText">After pasting the models into minecraft, I feed the minecraft world into a custom version of the Minecraft Overviewer
-    I modified to work with cubic chunks and canvas blocks. This gives the final result you see in the renders.</p>
-    <div class="imageContainer">
-      <div class="figure">
-        <img id="finalResult" src="./images/finalResult.png" alt="Final Result">
-        <p class="caption">The triangle with some scenery :)</p>
-      </div>
-      
-    </div>
   </body>
 
   

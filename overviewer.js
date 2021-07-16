@@ -448,6 +448,8 @@ overviewer.util = {
         //overviewer.coord_box.addTo(overviewer.map);
         overviewer.progress.addTo(overviewer.map);
 
+        overviewer.map.addControl(new L.Control.Fullscreen());
+
         overviewer.map.on('mousemove', function(ev) {
             overviewer.coord_box.render(ev.latlng);
         });
